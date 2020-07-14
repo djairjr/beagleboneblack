@@ -22,7 +22,7 @@ enable_uboot_overlays=1
 #uboot_overlay_addr7=/lib/firmware/<file7>.dtbo
 ###
 ###Custom Cape
-dtb_overlay=/lib/firmware/DVK551-LCD7-01-00A0.dtbo
+dtb_overlay=/lib/firmware/DVK530-LCD7-01-00A0.dtbo
 ###
 ###Disable auto loading of virtual capes (emmc/video/wireless/adc)
 #disable_uboot_overlay_emmc=1
@@ -65,4 +65,4 @@ cmdline=coherent_pool=1M net.ifnames=0 quiet
 #cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh
 
 optargs=video=HDMI-A-1:800x480@60
-optargs=capemgr.enable_partno=VK551-LCD7-01:00A0
+optargs=capemgr.enable_partno=DVK530-LCD7-01-00A0
