@@ -142,7 +142,7 @@
 
 				>;
 
-				default-brightness-level = <100>; /* index to the array above */
+				default-brightness-level = <50>; /* index to the array above */
 				status = "okay";
 
  			};
